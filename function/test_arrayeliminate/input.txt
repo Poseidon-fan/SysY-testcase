@@ -1,0 +1,15 @@
+int f(int x[], int cur){
+    if(cur == 0){
+        x[1]=99;
+    }else{
+        f(x,cur-1);
+    }
+}
+
+int main(){
+    int x[10] = {0};
+    x[1] = 1;
+    f(x, 1);
+    putint(x[1]);
+    return 0;
+}
