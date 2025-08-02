@@ -1,0 +1,16 @@
+
+const float e = 2.718281828459045;
+
+
+int model(int a[][5])
+{
+    return 1;
+}
+
+int main()
+{
+    int a[5][5];
+    putint(model(a));
+    return 0;
+}
+
